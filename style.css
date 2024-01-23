@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('assets/images/bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #212931;
+    background-blend-mode:soft-light;
+    
+    /* border: 2px solid green; */
+}
+header{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-text{
+    /* border: 2px solid yellow; */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: relative;
+    /* top: 20%; */
+    height: 40%; 
+
+}
+header .header-text h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+header .header-text p{
+    font-family: Merriweather, Georgia, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 38px;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 150%;
+}
+header .header-text i{
+    
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+/*  navbar section css */
+nav{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    color: white;
+    background-color: #1e252d;
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Merriweather, Georgia, serif;
+    
+}
+nav #page-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav #page-links ul li{
+    /* border: 2px solid green; */
+    padding: 1.2rem;
+    font-size: small;
+    font-weight: 900;
+}
+nav #social-icons ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav #social-icons ul li i{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.nav-active{
+    background-color: white;
+    color: #1e252d;
+}
+
+/* main section css */
+main{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main #main-date{
+    padding: 7%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-family: Merriweather, Georgia, serif;
+
+}
+#main-date hr{
+    width: 30%;
+    height: 0%;
+    margin: 10px 1rem;
+}
+main #main-text{
+    /* border: 2px solid red; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+main #main-text h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    /* font-height: 70.4px; */
+    color: #212931;
+    text-align: center;
+}
+main #main-text p{
+    font-family:Merriweather, Georgia, serif;
+    font-size: 24;
+    font-style: normal;
+    color: #212931;
+    text-align: center;
+    line-height: 2rem;
+}
+main #main-image{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-top: 1.5rem;
+}
+main #main-image img{
+    width: 100%;
+}
+.fullstory-btn button{
+    /* border: 2px solid red; */
+    padding: 1.2rem;
+    aspect-ratio: 5;
+    font-weight: 900;
+    margin: 4rem;
+    color: #212931;
+    font-family:Merriweather, Georgia, serif;
+    background-color: inherit;
+    cursor: pointer;
+    
+}
+
+/* article section css */
+article{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    background: white;
+
+}
+.article-container{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article-box{
+    border: 0.5px solid lightgrey;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.article-box .article-date{
+    /* border: 2px solid red; */
+    padding: 7%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-family: Merriweather, Georgia, serif;
+}
+.article-box .article-heading{
+    /* border: 2px solid red; */
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    color: #212931;
+    text-align: center;
+    width: 70%;
+    opacity: 0.8;
+    
+}
+.article-box .article-image{
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin-top: 2rem;
+}
+.article-box .article-image figcaption{
+    font-family:Merriweather, Georgia, serif;
+    font-size: 24;
+    font-style: normal;
+    color: #212931;
+    text-align: center;
+    line-height: 2rem;
+}
+.article-image img{
+    width: 100%;
+}
+
+/* pagination section css */
+#pagination{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717981;
+    background: white;
+
+}
+#pagination .active{
+    background: #eeeeee;
+}
+#pagination .page{
+    border: 0.5px solid #cccbcb;
+    aspect-ratio: 1;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+#pagination .nextpage{
+    width: 4rem;
+    height: inherit;
+    aspect-ratio: 1.35;
+    padding: 2rem auto;
+}
+
+/* contact details css */
+#contact-address{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    color: #494f55;
+    background-color: #eeeeee;
+    font-family: Merriweather, Georgia, serif;
+    font-style: normal;
+    font-weight: 900;
+
+}
+#contact-address #contact{
+    /* border: 2px solid yellow; */
+    width: 50%;
+}
+#contact-address #contact .form-text{
+    /* border: 2px solid green; */
+    margin: 2rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-text input, .form-text textarea{
+    padding: 0.8rem;
+    width: 80%;
+    background-color: inherit;
+    border: 1px solid rgb(158, 156, 156);
+    
+}
+
+#contact-address #address{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#address .address-text{
+    /* border: 2px solid green; */
+    margin: 2rem;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.address-text-normal{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    margin-left: 4rem;
+
+
+}
+.icons{
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+
+/* footer copyright css */
+footer .text{
+    /* border: 2px solid yellow; */
+    color: #717981;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    
+}
+footer .text .box{
+    /* border: 2px solid green; */
+    border-left: 1px solid #494f55;
+    border-right: 1px solid #494f55;
+    padding: 0 0.6%;
+}
+
+
+/* mobile menu icon css */
+.menu-icon{
+    /* border: 2px solid red; */
+    /* display: none; */
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    font-size: small;
+    z-index: 1;
+}
+#close{
+    
+    color: black;
+    font-size: x-large;
+    
+}
+/* mobile menu section css */
+#mobile-menu{
+    /* border: 2px solid red; */
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 1;
+    color: #212931;
+    font-weight: bolder;
+    
+    transition: display 2s ease-in-out;
+}
+.mobile-menu-container{
+    /* border: 2px solid yellow; */
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+.mobile-menu-box{
+    margin: 0.7rem;
+}
+.mobile-menu-icons{
+    /* border: 2px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+.mobile-menu-icons div{
+    border: 1px solid grey;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin: 0 0.7rem;
+}
+
+/* generic css */
+
+.text-uppercase{
+    text-transform: uppercase;
+
+}
+.underline-dotted{
+    
+    border-bottom: 2px dotted rgb(122, 119, 119);
+}
+.d-none{
+    display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+    #contact-address{
+        flex-direction: column;
+        /* width: 70% */
+    }
+    #contact-address #address, #contact-address #contact{
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+    .article-box{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    #navicon{
+        display: block;
+        font-size: large;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    nav,main,article,#pagination,#contact-address,body{
+        width: 100%;
+        /* border: 2px solid blue; */
+        
+    }
+    header .header-text h1, main #main-text h1{
+        /* border: 2px solid red; */
+
+        font-size: 2.5rem;
+        padding: 0;
+        margin: 0;
+        /* word-break: break-all; */
+    }
+    nav #page-links{
+        border: 2px solid black;
+        width: 100%;
+        /* font */
+    }
+    .address-text-normal{
+        margin: 2px;
+    }
+    .icons{
+        /* font-size: 0.; */
+        padding: 2px;
+        /* justify-content: center; */
+    }
+    footer .text{
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .text .box{
+        margin: 0.5rem;
+        
+    }
+}
+
+
+
+
