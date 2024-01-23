@@ -1,6 +1,6 @@
 # HTML5 Massively Landing Page
 
-![Design for the project](https://raw.githubusercontent.com/codedamn-projects/html5-massively-landing-page/master/desgin/Preview%20Image.jpg)
+![5](https://github.com/Frontend-mini-projects/Multiverse_HTML5_Photo_Gallery_Project/assets/63789702/61c0c16f-f870-401d-b847-d6bfbc562f93)
 
 ## Introduction
 
